@@ -2,6 +2,7 @@
 
 #include "../types.hpp"
 #include "layout_base.hpp"
+#include <hyprland/src/config/ConfigManager.hpp>
 
 class HTLayoutLinear: public HTLayoutBase {
   private:

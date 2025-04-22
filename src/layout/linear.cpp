@@ -265,7 +265,7 @@ void HTLayoutLinear::build_overview_layout(HTViewStage stage) {
     overview_layout.clear();
 
     std::vector<WORKSPACEID> monitor_workspaces;
-    for (PHLWORKSPACE workspace : g_pCompositor->m_vWorkspaces) {
+    for (PHLWORKSPACE workspace : g_pCompositor->m_workspaces) {
         if (workspace == nullptr)
             continue;
         if (workspace->m_pMonitor != monitor)
